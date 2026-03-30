@@ -1,25 +1,25 @@
-# def ex1():
-#     x = int(input("Digite o numero"))
-#     print(x - 1, x + 1)
+def ex1():
+    x = int(input("Digite o numero"))
+    print(x - 1, x + 1)
 
-# ex1()
+ex1()
 
-# def num1():
-#     x = int(input("Digite um numero"))
-#     return x
-# def num2():
-#     y = num1()
-#     w = num1()
-#     v = num1()
-#     return (y + w + v)
-# def num3(): 
-#     z = num1()
-#     return z
+def num1():
+    x = int(input("Digite um numero"))
+    return x
+def num2():
+    y = num1()
+    w = num1()
+    v = num1()
+    return (y + w + v)
+def num3(): 
+    z = num1()
+    return z
 
-# a = num2()
-# b = num1()
-# c = num3()
-# print (a + b + c)
+a = num2()
+b = num1()
+c = num3()
+print (a + b + c)
 
 def ex3():
     num1 = int(input("Digite o numero"))
