@@ -27,7 +27,7 @@ def primo():
                 print("primo")
             else:
                 print("nao primo")
-r = 0         
+r = 1   
 while r == 1:
     primo()
     r = 0
@@ -41,5 +41,3 @@ def calculoS():
         conta += 1
         s = (conta*3) - 1
         print(s)
-
-calculoS()
